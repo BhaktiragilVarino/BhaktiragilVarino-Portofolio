@@ -1,0 +1,68 @@
+CRITICAL - 2024-05-24 20:22:59 --> Undefined property: stdClass::$nama_keahlian_technologysuite
+in APPPATH\Views\v_lp.php on line 166.
+ 1 APPPATH\Views\v_lp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_keahlian_technologysuite', 'APPPATH\\Views\\v_lp.php', 166)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_lp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_lp', [], true)
+ 5 APPPATH\Controllers\Lp.php(13): view('v_lp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lp))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-24 20:38:37 --> mysqli_sql_exception: Table 'db_portofolio.aducation' doesn't exist in C:\xampp\htdocs\Portofolio\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Portofolio\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Portofolio\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Portofolio\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Portofolio\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Portofolio\app\Views\v_lp.php(238): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Portofolio\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Portofolio\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Portofolio\system\Common.php(1134): CodeIgniter\View\View->render('v_lp', Array, true)
+#8 C:\xampp\htdocs\Portofolio\app\Controllers\Lp.php(13): view('v_lp', Array)
+#9 C:\xampp\htdocs\Portofolio\system\CodeIgniter.php(927): App\Controllers\Lp->index()
+#10 C:\xampp\htdocs\Portofolio\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lp))
+#11 C:\xampp\htdocs\Portofolio\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Portofolio\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-24 20:38:37 --> Table 'db_portofolio.aducation' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `aducation`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `aducation`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `aducation`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `aducation`', [], false)
+ 5 APPPATH\Views\v_lp.php(238): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_lp.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_lp', [], true)
+ 9 APPPATH\Controllers\Lp.php(13): view('v_lp', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lp->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lp))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 21:28:55 --> Undefined property: stdClass::$Akuntansi
+in APPPATH\Views\v_lp.php on line 300.
+ 1 APPPATH\Views\v_lp.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Akuntansi', 'APPPATH\\Views\\v_lp.php', 300)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_lp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_lp', [], true)
+ 5 APPPATH\Controllers\Lp.php(13): view('v_lp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lp))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 21:34:29 --> Undefined property: stdClass::$create_at
+in APPPATH\Views\v_lp.php on line 315.
+ 1 APPPATH\Views\v_lp.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$create_at', 'APPPATH\\Views\\v_lp.php', 315)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_lp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_lp', [], true)
+ 5 APPPATH\Controllers\Lp.php(13): view('v_lp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lp))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

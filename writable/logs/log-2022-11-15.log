@@ -1,0 +1,290 @@
+CRITICAL - 2022-11-15 10:26:51 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:28:01 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:28:55 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:32:13 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:32:30 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:34:09 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:36:35 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:36:36 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:37:13 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:38:23 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:40:20 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('auth', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:40:24 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:40:32 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:40:51 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:41:23 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:42:29 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:44:29 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:46:54 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:50:21 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:50:37 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:50:58 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 10:52:04 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:32:33 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:32:39 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:32:43 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 16:16:53 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 16:16:59 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 21:49:18 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 21:49:19 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 419)
+ 3 SYSTEMPATH\Debug\Toolbar.php(419): strpos(null, '<head>')
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 5 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\Filters\Filters->run('C:\\', 'after')
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

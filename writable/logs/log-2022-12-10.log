@@ -1,0 +1,235 @@
+CRITICAL - 2022-12-10 02:42:50 --> Undefined array key "kota"
+in APPPATH\Views\datauser\data_mahasiswa\v_edit.php on line 819.
+ 1 APPPATH\Views\datauser\data_mahasiswa\v_edit.php(819): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kota"', 'APPPATH\\Views\\datauser\\data_mahasiswa\\v_edit.php', 819)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\datauser\\data_mahasiswa\\v_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('datauser/data_mahasiswa/v_edit', [], true)
+ 5 APPPATH\Views\layout\v_content.php(4): view('datauser/data_mahasiswa/v_edit')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(6): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Datamahasiswa.php(78): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Datamahasiswa->edit('1')
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datamahasiswa))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 03:17:09 --> mysqli_sql_exception: Unknown column 'nip' in 'field list' in C:\xampp\htdocs\siakad_v1\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\siakad_v1\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_mah...', 0)
+#1 C:\xampp\htdocs\siakad_v1\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_mah...')
+#2 C:\xampp\htdocs\siakad_v1\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_mah...')
+#3 C:\xampp\htdocs\siakad_v1\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mah...', Array, false)
+#4 C:\xampp\htdocs\siakad_v1\app\Models\ModelDatamahasiswa.php(27): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\siakad_v1\app\Controllers\Datamahasiswa.php(113): App\Models\ModelDatamahasiswa->update_datamahasiswa(Array, '1')
+#6 C:\xampp\htdocs\siakad_v1\system\CodeIgniter.php(927): App\Controllers\Datamahasiswa->update('1')
+#7 C:\xampp\htdocs\siakad_v1\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datamahasiswa))
+#8 C:\xampp\htdocs\siakad_v1\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\siakad_v1\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 03:17:09 --> Unknown column 'nip' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_mahasiswa` SET `nip` = NULL, `nidn` = NULL, `nidk` = NULL, `nupn` = NULL, `nbm` = NULL, `nama` = \'ALDINO PUTA BUANA\', `gelardepan` = NULL, `gelarbelakang` = NULL, `jk` = \'Laki - Laki\', `tmplahir` = \'Prabumulih\', `tgllahir` = \'13 Oktober 2000\', `idagama` = \'Islam\', `telepon` = \'987662733\', `nohp` = NULL, `idkepemilikanhp` = NULL, `emailkampus` = \'unpra@gmail.com\', `email` = \'aldino@gmail.com\', `alamat` = NULL, `idunit` = \'\', `idstatusaktif` = NULL, `idjenispeg` = NULL, `idjabfung` = NULL, `idjabstruktural` = NULL, `kuota_pa` = NULL, `kuota_propskripsi` = NULL, `idjenjang` = NULL, `iduniversitas` = NULL, `idbidangilmu` = NULL
+WHERE `id_mahasiswa` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_mahasiswa` SET `nip` = NULL, `nidn` = NULL, `nidk` = NULL, `nupn` = NULL, `nbm` = NULL, `nama` = \'ALDINO PUTA BUANA\', `gelardepan` = NULL, `gelarbelakang` = NULL, `jk` = \'Laki - Laki\', `tmplahir` = \'Prabumulih\', `tgllahir` = \'13 Oktober 2000\', `idagama` = \'Islam\', `telepon` = \'987662733\', `nohp` = NULL, `idkepemilikanhp` = NULL, `emailkampus` = \'unpra@gmail.com\', `email` = \'aldino@gmail.com\', `alamat` = NULL, `idunit` = \'\', `idstatusaktif` = NULL, `idjenispeg` = NULL, `idjabfung` = NULL, `idjabstruktural` = NULL, `kuota_pa` = NULL, `kuota_propskripsi` = NULL, `idjenjang` = NULL, `iduniversitas` = NULL, `idbidangilmu` = NULL
+WHERE `id_mahasiswa` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_mahasiswa` SET `nip` = NULL, `nidn` = NULL, `nidk` = NULL, `nupn` = NULL, `nbm` = NULL, `nama` = \'ALDINO PUTA BUANA\', `gelardepan` = NULL, `gelarbelakang` = NULL, `jk` = \'Laki - Laki\', `tmplahir` = \'Prabumulih\', `tgllahir` = \'13 Oktober 2000\', `idagama` = \'Islam\', `telepon` = \'987662733\', `nohp` = NULL, `idkepemilikanhp` = NULL, `emailkampus` = \'unpra@gmail.com\', `email` = \'aldino@gmail.com\', `alamat` = NULL, `idunit` = \'\', `idstatusaktif` = NULL, `idjenispeg` = NULL, `idjabfung` = NULL, `idjabstruktural` = NULL, `kuota_pa` = NULL, `kuota_propskripsi` = NULL, `idjenjang` = NULL, `iduniversitas` = NULL, `idbidangilmu` = NULL
+WHERE `id_mahasiswa` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_mahasiswa` SET `nip` = :nip:, `nidn` = :nidn:, `nidk` = :nidk:, `nupn` = :nupn:, `nbm` = :nbm:, `nama` = :nama:, `gelardepan` = :gelardepan:, `gelarbelakang` = :gelarbelakang:, `jk` = :jk:, `tmplahir` = :tmplahir:, `tgllahir` = :tgllahir:, `idagama` = :idagama:, `telepon` = :telepon:, `nohp` = :nohp:, `idkepemilikanhp` = :idkepemilikanhp:, `emailkampus` = :emailkampus:, `email` = :email:, `alamat` = :alamat:, `idunit` = :idunit:, `idstatusaktif` = :idstatusaktif:, `idjenispeg` = :idjenispeg:, `idjabfung` = :idjabfung:, `idjabstruktural` = :idjabstruktural:, `kuota_pa` = :kuota_pa:, `kuota_propskripsi` = :kuota_propskripsi:, `idjenjang` = :idjenjang:, `iduniversitas` = :iduniversitas:, `idbidangilmu` = :idbidangilmu:
+WHERE `id_mahasiswa` = :id_mahasiswa:', [...], false)
+ 5 APPPATH\Models\ModelDatamahasiswa.php(27): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Datamahasiswa.php(113): App\Models\ModelDatamahasiswa->update_datamahasiswa([...], '1')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Datamahasiswa->update('1')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datamahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:18:31 --> Undefined variable $html
+in APPPATH\Views\laporan\cetaklaporan.php on line 11.
+ 1 APPPATH\Views\laporan\cetaklaporan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $html', 'APPPATH\\Views\\laporan\\cetaklaporan.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 5 APPPATH\Controllers\Cetaklaporan.php(22): view('laporan/cetaklaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 08:26:57 --> Undefined variable $no
+in APPPATH\Views\laporan\cetaklaporan.php on line 60.
+ 1 APPPATH\Views\laporan\cetaklaporan.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'APPPATH\\Views\\laporan\\cetaklaporan.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 5 APPPATH\Controllers\Cetaklaporan.php(22): view('laporan/cetaklaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 16:44:26 --> Invalid file: cetaklaporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cetaklaporan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaklaporan', [], true)
+ 3 APPPATH\Controllers\Cetaklaporan.php(21): view('cetaklaporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 16:46:27 --> Invalid file: cetaklaporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cetaklaporan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaklaporan', [], true)
+ 3 APPPATH\Controllers\Cetaklaporan.php(21): view('cetaklaporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 16:46:36 --> Invalid file: cetaklaporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cetaklaporan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('cetaklaporan', [], true)
+ 3 APPPATH\Controllers\Cetaklaporan.php(21): view('cetaklaporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:05:27 --> Call to undefined method Dompdf\Dompdf::image()
+in APPPATH\Controllers\Cetaklaporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:05:46 --> Call to undefined method Dompdf\Dompdf::image()
+in APPPATH\Controllers\Cetaklaporan.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:08:09 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Cetaklaporan.php on line 19.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('/Cetaklaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('/Cetaklaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('/Cetaklaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:26:54 --> Call to undefined method App\Models\Modelcetaklaporan::AllData()
+in APPPATH\Controllers\Cetaklaporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:27:26 --> Call to undefined method App\Models\Modelcetaklaporan::AllData()
+in APPPATH\Controllers\Cetaklaporan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:32:45 --> syntax error, unexpected identifier "view", expecting ":"
+in APPPATH\Controllers\Cetaklaporan.php on line 24.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('/Cetaklaporan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('/Cetaklaporan')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('/Cetaklaporan')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:52:06 --> Undefined variable $jadwaldspng
+in APPPATH\Views\laporan\cetaklaporan.php on line 239.
+ 1 APPPATH\Views\laporan\cetaklaporan.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwaldspng', 'APPPATH\\Views\\laporan\\cetaklaporan.php', 239)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 5 APPPATH\Controllers\Cetaklaporan.php(29): view('laporan/cetaklaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:52:21 --> Unmatched '}'
+in APPPATH\Views\laporan\cetaklaporan.php on line 242.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 3 APPPATH\Controllers\Cetaklaporan.php(29): view('laporan/cetaklaporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:54:17 --> The PHP GD extension is required, but is not installed.
+in FCPATH\vendor\dompdf\dompdf\src\Renderer\AbstractRenderer.php on line 284.
+ 1 FCPATH\vendor\dompdf\dompdf\src\Renderer\AbstractRenderer.php(84): Dompdf\Renderer\AbstractRenderer->_background_image('https://assets.siakadcloud.com/assets/v1/img/pattern/pat_03.png, https://cms.sevima.com//cloudms/../uploads/bgaplikasi/1195.jpg', 34.01574803149606, 34.01574803149606, 527.2485039370079, 773.8585039370079, Object(Dompdf\Css\Style))
+ 2 FCPATH\vendor\dompdf\dompdf\src\Renderer\Block.php(44): Dompdf\Renderer\AbstractRenderer->_render_background(Object(Dompdf\FrameDecorator\Block), [...])
+ 3 FCPATH\vendor\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Block->render(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\Renderer.php(102): Dompdf\Renderer->_render_frame('block', Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 7 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 8 APPPATH\Controllers\Cetaklaporan.php(38): Dompdf\Dompdf->render()
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:54:41 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 17:55:46 --> Undefined variable $datamahasiswa
+in APPPATH\Views\laporan\cetaklaporan.php on line 240.
+ 1 APPPATH\Views\laporan\cetaklaporan.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datamahasiswa', 'APPPATH\\Views\\laporan\\cetaklaporan.php', 240)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\cetaklaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 5 APPPATH\Controllers\Cetaklaporan.php(29): view('laporan/cetaklaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:57:27 --> Call to undefined function form_open()
+in APPPATH\Views\laporan\cetaklaporan.php on line 133.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 4 APPPATH\Controllers\Cetaklaporan.php(29): view('laporan/cetaklaporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:57:57 --> Call to undefined function form_close()
+in APPPATH\Views\laporan\cetaklaporan.php on line 137.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/cetaklaporan', [], true)
+ 4 APPPATH\Controllers\Cetaklaporan.php(29): view('laporan/cetaklaporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:58:07 --> The PHP GD extension is required, but is not installed.
+in FCPATH\vendor\dompdf\dompdf\src\Renderer\AbstractRenderer.php on line 284.
+ 1 FCPATH\vendor\dompdf\dompdf\src\Renderer\AbstractRenderer.php(84): Dompdf\Renderer\AbstractRenderer->_background_image('https://assets.siakadcloud.com/assets/v1/img/pattern/pat_04.png', 34.01574803149606, 34.01574803149606, 527.2485039370079, 773.8585039370079, Object(Dompdf\Css\Style))
+ 2 FCPATH\vendor\dompdf\dompdf\src\Renderer\Block.php(44): Dompdf\Renderer\AbstractRenderer->_render_background(Object(Dompdf\FrameDecorator\Block), [...])
+ 3 FCPATH\vendor\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Block->render(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\Renderer.php(102): Dompdf\Renderer->_render_frame('block', Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 7 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 8 APPPATH\Controllers\Cetaklaporan.php(38): Dompdf\Dompdf->render()
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 17:58:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262148096 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-10 18:10:04 --> Undefined variable $dompdf
+in APPPATH\Controllers\Cetaklaporan.php on line 30.
+ 1 APPPATH\Controllers\Cetaklaporan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dompdf', 'APPPATH\\Controllers\\Cetaklaporan.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 18:11:45 --> Call to undefined method Dompdf\Dompdf::setChroot()
+in APPPATH\Controllers\Cetaklaporan.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\cetaklaporan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cetaklaporan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

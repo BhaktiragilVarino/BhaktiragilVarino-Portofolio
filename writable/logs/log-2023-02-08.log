@@ -1,0 +1,139 @@
+ERROR - 2023-02-08 03:42:04 --> mysqli_sql_exception: Table 'db_dayamotor.tbl_statusmhs' doesn't exist in C:\xampp\htdocs\dayamotor\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\dayamotor\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\dayamotor\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dayamotor\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dayamotor\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dayamotor\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dayamotor\app\Controllers\Auth.php(45): App\Models\Model_auth->login('amandaistikomar...', 'mandacantik')
+#6 C:\xampp\htdocs\dayamotor\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\dayamotor\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\dayamotor\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dayamotor\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-08 03:42:04 --> Table 'db_dayamotor.tbl_statusmhs' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = \'amandaistikomariah42@gmail.com\'
+AND `password` = \'mandacantik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = \'amandaistikomariah42@gmail.com\'
+AND `password` = \'mandacantik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = \'amandaistikomariah42@gmail.com\'
+AND `password` = \'mandacantik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 5 APPPATH\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Auth.php(45): App\Models\Model_auth->login('amandaistikomariah42@gmail.com', 'mandacantik')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-08 03:42:46 --> mysqli_sql_exception: Table 'db_dayamotor.tbl_statusmhs' doesn't exist in C:\xampp\htdocs\dayamotor\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\dayamotor\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\dayamotor\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\dayamotor\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\dayamotor\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\dayamotor\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\dayamotor\app\Controllers\Auth.php(45): App\Models\Model_auth->login('amandaistikomar...', 'mandacantik')
+#6 C:\xampp\htdocs\dayamotor\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\dayamotor\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\dayamotor\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\dayamotor\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-08 03:42:46 --> Table 'db_dayamotor.tbl_statusmhs' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = \'amandaistikomariah42@gmail.com\'
+AND `password` = \'mandacantik\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = \'amandaistikomariah42@gmail.com\'
+AND `password` = \'mandacantik\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = \'amandaistikomariah42@gmail.com\'
+AND `password` = \'mandacantik\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+JOIN `tbl_pegawai` ON `tbl_pegawai`.`id_pegawai` = `tbl_pegawai`.`id_pegawai`
+JOIN `tbl_mahasiswa` ON `tbl_mahasiswa`.`id_mahasiswa` = `tbl_mahasiswa`.`id_mahasiswa`
+JOIN `tbl_statusmhs` ON `tbl_statusmhs`.`idstatusmhs` = `tbl_statusmhs`.`idstatusmhs`
+JOIN `tbl_unit` ON `tbl_unit`.`idunit` = `tbl_unit`.`idunit`
+JOIN `tbl_kurikulum` ON `tbl_kurikulum`.`idkurikulum` = `tbl_kurikulum`.`idkurikulum`
+JOIN `tbl_jadwaldssi` ON `tbl_jadwaldssi`.`idjadwaldssi` = `tbl_jadwaldssi`.`idjadwaldssi`
+JOIN `tbl_jadwaldsmi` ON `tbl_jadwaldsmi`.`idjadwaldsmi` = `tbl_jadwaldsmi`.`idjadwaldsmi`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 5 APPPATH\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Auth.php(45): App\Models\Model_auth->login('amandaistikomariah42@gmail.com', 'mandacantik')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 03:48:57 --> Unclosed '{' on line 430
+in APPPATH\Views\v_menu.php on line 752.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('v_menu', [], true)
+ 3 APPPATH\Controllers\Menu.php(13): view('v_menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Menu->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
