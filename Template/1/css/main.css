@@ -2352,7 +2352,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .banner-area {
-    background: url(../img/header-bg.jpg);
+    background: url(../img/header-bacground.jpeg);
     background-position: 50% 90% 50% 50%;
   }
 }
@@ -2585,8 +2585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
   color: #fff;
-  padding-top: 220px;
-  background: url(../img/footer-bg.jpg) center;
+  background: url(../img/footer-bg.jpeg) center;
   background-size: cover;
 }
 

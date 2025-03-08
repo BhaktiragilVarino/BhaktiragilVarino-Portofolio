@@ -1,0 +1,7 @@
+CRITICAL - 2025-03-08 03:22:41 --> Undefined property: App\Controllers\Lp::$model_pesan
+in APPPATH\Controllers\Lp.php on line 39.
+ 1 APPPATH\Controllers\Lp.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Lp::$model_pesan', 'APPPATH\\Controllers\\Lp.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Lp->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lp))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

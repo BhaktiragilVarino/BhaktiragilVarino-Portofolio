@@ -5,7 +5,7 @@
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="<?= base_url() ?>/Template/1/img/fav.png">
+    <link rel="shortcut icon" href="<?= base_url() ?>/Template/1/img/image.png">
     <!-- Author Meta -->
     <meta name="author" content="codepixer">
     <!-- Meta Description -->
@@ -17,16 +17,21 @@
     <!-- Site Title -->
     <title>Portofolio - Bhakti Ragil Varino</title>
 
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+
     <!-- CSS ============================================= -->
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/linearicons.css" />
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/bootstrap.css">
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/magnific-popup.css">
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/nice-select.css">
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/animate.min.css">
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/owl.carousel.css">
     <link rel="stylesheet" href="<?= base_url() ?>/Template/1/css/main.css">
+
+    <!-- Custom CSS -->
     <style>
         @font-face {
             font-family: 'MyCustomFont';
@@ -130,12 +135,12 @@
             }
 
             .ragil {
-                margin-left: 20px;
+                margin-left: 0px;
                 margin-top: -30px;
             }
 
             .varino {
-                margin-left: 40px;
+                margin-left: -15px;
                 margin-top: -50px;
             }
 
@@ -185,6 +190,7 @@
             }
         }
     </style>
+
     <style>
         .gallery-area {
             padding: 60px 0;
@@ -212,7 +218,9 @@
             }
         }
     </style>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Aos -->
+    <link href="<?= base_url() ?>/Template/1/css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -244,7 +252,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="index.html"><img src="<?= base_url() ?>/Templawte/1/img/logo.png" alt="" title="" /></a>
+                    <a href="#home"><img src="<?= base_url() ?>/Template/1/img/logo.png" style="display: none;" alt="" title="" /></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
@@ -257,11 +265,10 @@
                             <a style="color: #721D7A; font-family: 'MyCustomFont'; font-size: 15px;" href="<?= base_url('auth/formlogin') ?>">Login</a>
                         </li>
                     </ul>
-                </nav><!-- #nav-menu-container -->
+                </nav>
             </div>
         </div>
-    </header><!-- #header -->
-
+    </header>
 
     <!-- start banner Area -->
     <section class="banner-area" id="home">
@@ -347,8 +354,8 @@
                     </div>
                     <div class="row d-flex" style="margin-left: -15px;">
                         <div class="col-lg-4 d-flex" style="margin-bottom: -40px;">
-                            <h1 id="nama11" style="margin-top: 40px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;">BHAK</h1>
-                            <h1 id="nama12" style="margin-left: 2px; margin-top: 20px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;">T</h1>
+                            <h1 id="nama11" style="margin-top: 40px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px; letter-spacing: 3px;">BHAK</h1>
+                            <h1 id="nama12" style="margin-left: 0px; margin-top: 20px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;">T</h1>
                             <h1 id="nama13" style="margin-left: 2px; margin-top: 20px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;">I</h1>
                         </div>
                         <div class="col-lg-4 d-flex ragil" style="margin-bottom: -40px;">
@@ -384,7 +391,7 @@
 
                                 <h1 id="nama10" style="margin-top: -2px; opacity:0; scale: 0.2; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;">I</h1>
                             </div>
-                            <img id="nama8" src="https://gsap.com/tf-assets/worm-e8f0c8f6.png" style="margin-left: 2px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;  width: 35px; height: 60px; opacity:1;  margin-top: 47px;" />
+                            <img id="nama8" src="<?= base_url() ?>/Template/1/img/LOLI.webp" style="margin-left: 2px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;  width: 35px; height: 60px; opacity:1;  margin-top: 47px;" />
                             <h1 id="nama9" style="margin-left: -35px; margin-top: 22px; color: #721D7A; font-family: 'MyCustomFont'; font-size: 55px;">L</h1>
                         </div>
                         <div class="col-lg-4 d-flex varino" style="margin-bottom: -40px;">
@@ -407,7 +414,8 @@
                                 <span>CV</span>
                             </div>
                             <div>
-                                <div id="btn-circles" style="opacity: 0; margin-left: -25px; translate: none; rotate: none; scale: none; transform: translate(-16.1033px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="23" height="23" viewBox="0 0 23 23" aria-hidden="true">
+                                <div id="btn-circles" style="opacity: 0; margin-left: -25px; translate: none; rotate: none; scale: none; transform: translate(-16.1033px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="23" height="23" viewBox="0 0 23 23" aria-hidden="true">
                                         <path fill="url(#paint0_radial_2146_58993)" fill-rule="evenodd" d="M7.959 10.053a4.368 4.368 0 0 1-.889-.17c-2.327-.7-3.64-3.174-2.933-5.527C4.845 2.002 7.305.662 9.632 1.36c2.327.7 3.64 3.174 2.933 5.528-.06.197-.131.387-.214.57l.46.138c.032-.198.078-.396.137-.593.707-2.353 3.167-3.694 5.494-2.995 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995a4.377 4.377 0 0 1-.745-.3l-.1.333c.261.029.525.082.786.16 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995-2.327-.7-3.64-3.175-2.933-5.528a4.51 4.51 0 0 1 .35-.845l-.54-.163c-.03.265-.085.531-.164.796-.708 2.353-3.168 3.694-5.495 2.994-2.327-.7-3.64-3.174-2.933-5.527.708-2.354 3.168-3.694 5.495-2.995.295.089.574.206.835.349l.083-.276Z" clip-rule="evenodd"></path>
                                         <path fill="url(#pattern-home-hero-btn-circles-0)" fill-opacity=".6" fill-rule="evenodd" d="M7.959 10.053a4.368 4.368 0 0 1-.889-.17c-2.327-.7-3.64-3.174-2.933-5.527C4.845 2.002 7.305.662 9.632 1.36c2.327.7 3.64 3.174 2.933 5.528-.06.197-.131.387-.214.57l.46.138c.032-.198.078-.396.137-.593.707-2.353 3.167-3.694 5.494-2.995 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995a4.377 4.377 0 0 1-.745-.3l-.1.333c.261.029.525.082.786.16 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995-2.327-.7-3.64-3.175-2.933-5.528a4.51 4.51 0 0 1 .35-.845l-.54-.163c-.03.265-.085.531-.164.796-.708 2.353-3.168 3.694-5.495 2.994-2.327-.7-3.64-3.174-2.933-5.527.708-2.354 3.168-3.694 5.495-2.995.295.089.574.206.835.349l.083-.276Z" clip-rule="evenodd"></path>
                                         <defs>
@@ -422,7 +430,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <div id="btn-windmill" style="opacity: 0; margin-left: 20px; margin-top: -55px; translate: none; rotate: none; scale: none; transform: translate(-40.6396px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="62" height="63" viewBox="0 0 62 63" aria-hidden="true">
+                                <div id="btn-windmill" style="opacity: 0; margin-left: 20px; margin-top: -55px; translate: none; rotate: none; scale: none; transform: translate(-40.6396px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="62" height="63" viewBox="0 0 62 63" aria-hidden="true">
                                         <path fill="url(#paint0_radial_2771_42684)" d="m34.246 27.525 10.197-13.201a.26.26 0 0 1 .362-.047L61.76 27.372a.26.26 0 0 1 .046.366c-7.386 9.336-20.882 11.074-30.391 3.919l16.975 13.112c.112.087.133.25.046.362L35.34 62.085a.26.26 0 0 1-.365.046c-9.41-7.444-11.1-21.093-3.746-30.616l-13.255 17.16a.259.259 0 0 1-.362.046L.658 35.626a.26.26 0 0 1-.046-.365c7.386-9.337 20.881-11.074 30.391-3.92l-16.935-13.08a.259.259 0 0 1-.047-.363L27.117.944a.26.26 0 0 1 .365-.046c8.08 6.393 10.469 17.361 6.326 26.362-.129.278.25.508.439.264l-.001.001Z"></path>
                                         <path fill="url(#pattern-home-hero-btn-windmill-0)" fill-opacity=".6" d="m34.246 27.525 10.197-13.201a.26.26 0 0 1 .362-.047L61.76 27.372a.26.26 0 0 1 .046.366c-7.386 9.336-20.882 11.074-30.391 3.919l16.975 13.112c.112.087.133.25.046.362L35.34 62.085a.26.26 0 0 1-.365.046c-9.41-7.444-11.1-21.093-3.746-30.616l-13.255 17.16a.259.259 0 0 1-.362.046L.658 35.626a.26.26 0 0 1-.046-.365c7.386-9.337 20.881-11.074 30.391-3.92l-16.935-13.08a.259.259 0 0 1-.047-.363L27.117.944a.26.26 0 0 1 .365-.046c8.08 6.393 10.469 17.361 6.326 26.362-.129.278.25.508.439.264l-.001.001Z"></path>
                                         <defs>
@@ -439,7 +448,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <div id="btn-square" style="opacity: 0; margin-left: -100px; margin-top: -65px; translate: none; rotate: none; scale: none; transform: translate3d(17.7954px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                                <div id="btn-square" style="opacity: 0; margin-left: -100px; margin-top: -65px; translate: none; rotate: none; scale: none; transform: translate3d(17.7954px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
                                         <path fill="url(#paint0_linear_2771_24471)" d="M.27 7.683a1 1 0 0 1 .372-1.364L10.995.409a1 1 0 0 1 1.364.373l5.91 10.352a1 1 0 0 1-.373 1.365l-10.353 5.91a1 1 0 0 1-1.364-.373L.27 7.683Z"></path>
                                         <path fill="url(#pattern-home-hero-btn-square-0)" fill-opacity=".6" d="M.27 7.683a1 1 0 0 1 .372-1.364L10.995.409a1 1 0 0 1 1.364.373l5.91 10.352a1 1 0 0 1-.373 1.365l-10.353 5.91a1 1 0 0 1-1.364-.373L.27 7.683Z"></path>
                                         <defs>
@@ -453,7 +463,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <div id="btn-star" style="opacity: 0; margin-left: -140px; margin-top: -40px; translate: none; rotate: none; scale: none; transform: translate3d(36.367px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+                                <div id="btn-star" style="opacity: 0; margin-left: -140px; margin-top: -40px; translate: none; rotate: none; scale: none; transform: translate3d(36.367px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
                                         <path fill="url(#paint0_linear_2771_24384)" fill-rule="evenodd" d="m6.324 7.326-4.936-.849a1.078 1.078 0 0 0-.374 2.124l4.93.887-4.091 2.89a1.078 1.078 0 0 0 1.238 1.766l4.112-2.858-.849 4.936a1.078 1.078 0 0 0 2.124.374l.887-4.93 2.89 4.09a1.078 1.078 0 0 0 1.766-1.238l-2.858-4.111 4.936.848a1.078 1.078 0 0 0 .374-2.124l-4.93-.887 4.09-2.89a1.078 1.078 0 0 0-1.238-1.766l-4.111 2.858.848-4.935a1.078 1.078 0 0 0-2.124-.374l-.886 4.93-2.89-4.091a1.078 1.078 0 0 0-1.766 1.238l2.858 4.112Z" clip-rule="evenodd"></path>
                                         <path fill="url(#pattern-home-hero-btn-star-0)" fill-opacity=".6" fill-rule="evenodd" d="m6.324 7.326-4.936-.849a1.078 1.078 0 0 0-.374 2.124l4.93.887-4.091 2.89a1.078 1.078 0 0 0 1.238 1.766l4.112-2.858-.849 4.936a1.078 1.078 0 0 0 2.124.374l.887-4.93 2.89 4.09a1.078 1.078 0 0 0 1.766-1.238l-2.858-4.111 4.936.848a1.078 1.078 0 0 0 .374-2.124l-4.93-.887 4.09-2.89a1.078 1.078 0 0 0-1.238-1.766l-4.111 2.858.848-4.935a1.078 1.078 0 0 0-2.124-.374l-.886 4.93-2.89-4.091a1.078 1.078 0 0 0-1.766 1.238l2.858 4.112Z" clip-rule="evenodd" style="mix-blend-mode:multiply"></path>
                                         <defs>
@@ -475,13 +486,14 @@
 
 
                     </a>
-                    <a id="animationContainer2" href="<?= base_url('CV BHAKTI RAGIL VARINO ENGLISH.pdf') ?>" class="genric-btn primary-border circle text-uppercase mt-4 ml-3">
+                    <a id="animationContainer2" href="<?= base_url('document/CV BHAKTI RAGIL VARINO ENGLISH.pdf') ?>" class="genric-btn primary-border circle text-uppercase mt-4 ml-3">
                         <div style="display: flex; margin-left:-20 ;">
                             <div id="cv2">
                                 <span>CV</span>
                             </div>
                             <div>
-                                <div id="btn-circles2" style="opacity: 0; margin-left: -25px; translate: none; rotate: none; scale: none; transform: translate(-16.1033px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="23" height="23" viewBox="0 0 23 23" aria-hidden="true">
+                                <div id="btn-circles2" style="opacity: 0; margin-left: -25px; translate: none; rotate: none; scale: none; transform: translate(-16.1033px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="23" height="23" viewBox="0 0 23 23" aria-hidden="true">
                                         <path fill="url(#paint0_radial_2146_58993)" fill-rule="evenodd" d="M7.959 10.053a4.368 4.368 0 0 1-.889-.17c-2.327-.7-3.64-3.174-2.933-5.527C4.845 2.002 7.305.662 9.632 1.36c2.327.7 3.64 3.174 2.933 5.528-.06.197-.131.387-.214.57l.46.138c.032-.198.078-.396.137-.593.707-2.353 3.167-3.694 5.494-2.995 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995a4.377 4.377 0 0 1-.745-.3l-.1.333c.261.029.525.082.786.16 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995-2.327-.7-3.64-3.175-2.933-5.528a4.51 4.51 0 0 1 .35-.845l-.54-.163c-.03.265-.085.531-.164.796-.708 2.353-3.168 3.694-5.495 2.994-2.327-.7-3.64-3.174-2.933-5.527.708-2.354 3.168-3.694 5.495-2.995.295.089.574.206.835.349l.083-.276Z" clip-rule="evenodd"></path>
                                         <path fill="url(#pattern-home-hero-btn-circles-0)" fill-opacity=".6" fill-rule="evenodd" d="M7.959 10.053a4.368 4.368 0 0 1-.889-.17c-2.327-.7-3.64-3.174-2.933-5.527C4.845 2.002 7.305.662 9.632 1.36c2.327.7 3.64 3.174 2.933 5.528-.06.197-.131.387-.214.57l.46.138c.032-.198.078-.396.137-.593.707-2.353 3.167-3.694 5.494-2.995 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995a4.377 4.377 0 0 1-.745-.3l-.1.333c.261.029.525.082.786.16 2.328.7 3.64 3.175 2.933 5.528-.707 2.353-3.167 3.694-5.494 2.995-2.327-.7-3.64-3.175-2.933-5.528a4.51 4.51 0 0 1 .35-.845l-.54-.163c-.03.265-.085.531-.164.796-.708 2.353-3.168 3.694-5.495 2.994-2.327-.7-3.64-3.174-2.933-5.527.708-2.354 3.168-3.694 5.495-2.995.295.089.574.206.835.349l.083-.276Z" clip-rule="evenodd"></path>
                                         <defs>
@@ -496,7 +508,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <div id="btn-windmill2" style="opacity: 0; margin-left: 20px; margin-top: -55px; translate: none; rotate: none; scale: none; transform: translate(-40.6396px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="62" height="63" viewBox="0 0 62 63" aria-hidden="true">
+                                <div id="btn-windmill2" style="opacity: 0; margin-left: 20px; margin-top: -55px; translate: none; rotate: none; scale: none; transform: translate(-40.6396px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="62" height="63" viewBox="0 0 62 63" aria-hidden="true">
                                         <path fill="url(#paint0_radial_2771_42684)" d="m34.246 27.525 10.197-13.201a.26.26 0 0 1 .362-.047L61.76 27.372a.26.26 0 0 1 .046.366c-7.386 9.336-20.882 11.074-30.391 3.919l16.975 13.112c.112.087.133.25.046.362L35.34 62.085a.26.26 0 0 1-.365.046c-9.41-7.444-11.1-21.093-3.746-30.616l-13.255 17.16a.259.259 0 0 1-.362.046L.658 35.626a.26.26 0 0 1-.046-.365c7.386-9.337 20.881-11.074 30.391-3.92l-16.935-13.08a.259.259 0 0 1-.047-.363L27.117.944a.26.26 0 0 1 .365-.046c8.08 6.393 10.469 17.361 6.326 26.362-.129.278.25.508.439.264l-.001.001Z"></path>
                                         <path fill="url(#pattern-home-hero-btn-windmill-0)" fill-opacity=".6" d="m34.246 27.525 10.197-13.201a.26.26 0 0 1 .362-.047L61.76 27.372a.26.26 0 0 1 .046.366c-7.386 9.336-20.882 11.074-30.391 3.919l16.975 13.112c.112.087.133.25.046.362L35.34 62.085a.26.26 0 0 1-.365.046c-9.41-7.444-11.1-21.093-3.746-30.616l-13.255 17.16a.259.259 0 0 1-.362.046L.658 35.626a.26.26 0 0 1-.046-.365c7.386-9.337 20.881-11.074 30.391-3.92l-16.935-13.08a.259.259 0 0 1-.047-.363L27.117.944a.26.26 0 0 1 .365-.046c8.08 6.393 10.469 17.361 6.326 26.362-.129.278.25.508.439.264l-.001.001Z"></path>
                                         <defs>
@@ -513,7 +526,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <div id="btn-square2" style="opacity: 0; margin-left: -100px; margin-top: -65px; translate: none; rotate: none; scale: none; transform: translate3d(17.7954px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                                <div id="btn-square2" style="opacity: 0; margin-left: -100px; margin-top: -65px; translate: none; rotate: none; scale: none; transform: translate3d(17.7954px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
                                         <path fill="url(#paint0_linear_2771_24471)" d="M.27 7.683a1 1 0 0 1 .372-1.364L10.995.409a1 1 0 0 1 1.364.373l5.91 10.352a1 1 0 0 1-.373 1.365l-10.353 5.91a1 1 0 0 1-1.364-.373L.27 7.683Z"></path>
                                         <path fill="url(#pattern-home-hero-btn-square-0)" fill-opacity=".6" d="M.27 7.683a1 1 0 0 1 .372-1.364L10.995.409a1 1 0 0 1 1.364.373l5.91 10.352a1 1 0 0 1-.373 1.365l-10.353 5.91a1 1 0 0 1-1.364-.373L.27 7.683Z"></path>
                                         <defs>
@@ -527,7 +541,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <div id="btn-star2" style="opacity: 0; margin-left: -140px; margin-top: -40px; translate: none; rotate: none; scale: none; transform: translate3d(36.367px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+                                <div id="btn-star2" style="opacity: 0; margin-left: -140px; margin-top: -40px; translate: none; rotate: none; scale: none; transform: translate3d(36.367px, 0px, 0px) rotate(-360deg) scale(0.3, 0.3); z-index: -1;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
                                         <path fill="url(#paint0_linear_2771_24384)" fill-rule="evenodd" d="m6.324 7.326-4.936-.849a1.078 1.078 0 0 0-.374 2.124l4.93.887-4.091 2.89a1.078 1.078 0 0 0 1.238 1.766l4.112-2.858-.849 4.936a1.078 1.078 0 0 0 2.124.374l.887-4.93 2.89 4.09a1.078 1.078 0 0 0 1.766-1.238l-2.858-4.111 4.936.848a1.078 1.078 0 0 0 .374-2.124l-4.93-.887 4.09-2.89a1.078 1.078 0 0 0-1.238-1.766l-4.111 2.858.848-4.935a1.078 1.078 0 0 0-2.124-.374l-.886 4.93-2.89-4.091a1.078 1.078 0 0 0-1.766 1.238l2.858 4.112Z" clip-rule="evenodd"></path>
                                         <path fill="url(#pattern-home-hero-btn-star-0)" fill-opacity=".6" fill-rule="evenodd" d="m6.324 7.326-4.936-.849a1.078 1.078 0 0 0-.374 2.124l4.93.887-4.091 2.89a1.078 1.078 0 0 0 1.238 1.766l4.112-2.858-.849 4.936a1.078 1.078 0 0 0 2.124.374l.887-4.93 2.89 4.09a1.078 1.078 0 0 0 1.766-1.238l-2.858-4.111 4.936.848a1.078 1.078 0 0 0 .374-2.124l-4.93-.887 4.09-2.89a1.078 1.078 0 0 0-1.238-1.766l-4.111 2.858.848-4.935a1.078 1.078 0 0 0-2.124-.374l-.886 4.93-2.89-4.091a1.078 1.078 0 0 0-1.766 1.238l2.858 4.112Z" clip-rule="evenodd" style="mix-blend-mode:multiply"></path>
                                         <defs>
@@ -553,7 +568,7 @@
     </section>
     <!-- End banner Area -->
 
-    <!-- Start video-sec Area -->
+    <!-- Start About Area -->
     <section class="video-sec-area pb-100 pt-40" id="about">
         <div class="container">
             <?php
@@ -582,9 +597,9 @@
             <?php } ?>
         </div>
     </section>
-    <!-- End video-sec Area -->
+    <!-- End About Area -->
 
-    <!-- Start menu Area -->
+    <!-- Start Tech Stcak Area -->
     <section class="menu-area section-gap" id="coffee">
         <div class="container">
             <div class="row d-flex justify-content-center">
@@ -619,14 +634,14 @@
             </div>
         </div>
     </section>
-    <!-- End menu Area -->
+    <!-- End Tech Stack Area -->
 
     <!-- Start gallery Area -->
     <section class="gallery-area section-gap" id="gallery">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-60 col-lg-12">
-                    <div class="title text-center">
+                    <div class="title text-center" style="margin-top: 50px;">
                         <h1 class="mb-10">Achievements And Certification</h1>
                         <p>Portfolio Highlights: Showcasing my achievements and certification.</p>
                     </div>
@@ -650,7 +665,7 @@
     </section>
     <!-- End gallery Area -->
 
-    <!-- Start review Area -->
+    <!-- Start Experience Area -->
     <section class="review-area section-gap" id="review">
         <div class="container">
             <div class="row d-flex justify-content-center">
@@ -671,12 +686,12 @@
                     <div class="col-lg-6 col-md-6 single-review" data-aos="zoom-in" data-aos-delay="9000">
                         <img src="<?= base_url() ?>/upload_foto/<?= $row->logo_instansi_education ?>" style="height: 50px;" alt="">
                         <div class="title d-flex flex-row" data-aos="flip-up" data-aos-duration="1000">
-                            <h4 style="font-family: 'MyCustomFont2'; font-size: 17px;"><?= $row->nama_instansi_education ?></h4>
+                            <h4 style="color: #B4007B; font-family: 'MyCustomFont2'; font-size: 17px;"><?= $row->nama_instansi_education ?></h4>
                             <div class="star" data-aos="flip-up" data-aos-duration="1000">
                                 <h5><?= $row->prodi_education ?></h5>
                             </div>
                         </div>
-                        <p>
+                        <p style="color: white;">
                             <?= $row->keterangan_education ?>
                         </p>
                     </div>
@@ -703,9 +718,9 @@
             </div>
         </div>
     </section>
-    <!-- End review Area -->
+    <!-- End Experience Area -->
 
-    <!-- Start blog Area -->
+    <!-- Start Project Area -->
     <section class="blog-area section-gap" id="blog">
         <div class="container">
             <div class="row d-flex justify-content-center">
@@ -721,7 +736,18 @@
                 function formatDateIndo($date)
                 {
                     $bulan = [
-                        1 => 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
+                        1 => 'Januari',
+                        'Februari',
+                        'Maret',
+                        'April',
+                        'Mei',
+                        'Juni',
+                        'Juli',
+                        'Agustus',
+                        'September',
+                        'Oktober',
+                        'November',
+                        'Desember'
                     ];
                     $split = explode('-', $date);
                     return $split[2] . ' ' . $bulan[(int)$split[1]] . ' ' . $split[0];
@@ -740,6 +766,13 @@
                     $dateTime = new DateTime($row->created_at);
                     $formattedDate = formatDateIndo($dateTime->format('Y-m-d'));
                     $formattedTime = $dateTime->format('H:i');
+
+                    $keterangan = $row->keterangan_project;
+                    $words = explode(' ', $keterangan);
+
+                    if (count($words) > 30) {
+                        $keterangan = implode(' ', array_slice($words, 0, 30)) . ' ...';
+                    }
                 ?>
                     <div class="col-lg-6 col-md-6 single-blog" data-aos="zoom-out-right">
                         <img class="img-fluid" style="height: 310px;" src="<?= base_url() ?>/upload_foto/<?= $first_image ?>" alt="">
@@ -755,7 +788,7 @@
                             <h4><?= $row->nama_project ?></h4>
                         </a>
                         <p>
-                            <?= $row->keterangan_project ?>
+                            <?= $keterangan ?>
                         </p>
                         <p class="post-date">
                             <?= $formattedDate ?> di Jam <?= $formattedTime ?>
@@ -765,8 +798,7 @@
             </div>
         </div>
     </section>
-    <!-- End blog Area -->
-
+    <!-- End Project Area -->
 
     <!-- start footer Area -->
     <footer class="footer-area section-gap">
@@ -774,31 +806,26 @@
             <div class="row">
                 <div class="col-lg-5 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6>About Us</h6>
+                        <h6>Moto Hidup</h6>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+                            Setiap tantangan adalah peluang untuk berkembang. Dengan perpaduan ilmu akuntansi dan teknologi, saya terus mencari cara terbaik dalam pekerjaan yang saya lakukan.
                         </p>
                         <p class="footer-text">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </script> All rights reserved | This Website is made with <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/bhakti-ragil-varino-84b611298/">Bhakti Ragil Varino</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-5  col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6>Newsletter</h6>
-                        <p>Stay update with our latest</p>
-                        <div class="" id="mc_embed_signup">
-                            <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-                                <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-                                <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-                                <div style="position: absolute; left: -5000px;">
-                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                                </div>
-
+                        <h6>Pesan</h6>
+                        <p>Tinggalkan Pesan Jika Anda Ingin Menanyakan Lebih Lanjut Dengan Pemilik !!</p>
+                        <div class="">
+                            <form action="<?= base_url('lp/save') ?>" method="post" class="form-inline">
+                                <input class="form-control" name="email" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                <textarea class="form-control mt-2" style="width: 357px;" name="pesan" placeholder="Masukan pesan Anda" required=""></textarea>
+                                <button class="click-btn mt-2" type="submit"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                                 <div class="info pt-20"></div>
                             </form>
                         </div>
@@ -807,12 +834,13 @@
                 <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
                     <div class="single-footer-widget">
                         <h6>Follow Us</h6>
-                        <p>Let us be social</p>
+                        <p>Let us be social Media</p>
                         <div class="footer-social d-flex align-items-center">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-behance"></i></a>
+                            <a href="https://web.facebook.com/profile.php?id=100009155707215"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/bhaktiragill_/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://x.com/RagilBhakti"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/bhakti-ragil-varino-84b611298/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/BhaktiragilVarino"><i class="fa fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -822,9 +850,12 @@
     <!-- End footer Area -->
 
     <script src="<?= base_url() ?>/Template/1/js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <script src="<?= base_url() ?>/Template/1/js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     <script src="<?= base_url() ?>/Template/1/js/vendor/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+
     <script src="<?= base_url() ?>/Template/1/js/easing.min.js"></script>
     <script src="<?= base_url() ?>/Template/1/js/hoverIntent.js"></script>
     <script src="<?= base_url() ?>/Template/1/js/superfish.min.js"></script>
@@ -838,8 +869,10 @@
     <script src="<?= base_url() ?>/Template/1/js/jquery.counterup.min.js"></script>
     <script src="<?= base_url() ?>/Template/1/js/mail-script.js"></script>
     <script src="<?= base_url() ?>/Template/1/js/main.js"></script>
+
     <script src="<?= base_url() ?>/Template/1/js/masonry.pkgd.min.js"></script>
     <script src="<?= base_url() ?>/Template/1/js/imagesloaded.pkgd.min.js"></script>
+
     <script>
         $(document).ready(function() {
             var $grid = $('#masonry-grid').masonry({
@@ -869,15 +902,20 @@
         //     setTimeout(hideLoading, 4000);
         // });
     </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="<?= base_url() ?>/Template/1/js/aos.js"></script>
+
     <script>
         AOS.init();
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script> -->
+    <script src="<?= base_url() ?>/Template/1/js/gsap.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/gsapp.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
@@ -885,11 +923,48 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> -->
+    <script src="<?= base_url() ?>/Template/1/js/Flip.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/ScrollTrigger.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/Observer.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/ScrollToPlugin.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/Draggable.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/MotionPathPlugin.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/EaselPlugin.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/PixiPlugin.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/TextPlugin.min.js"></script>
 
-    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script> -->
+    <script src="<?= base_url() ?>/Template/1/js/EasePack.min.js"></script>
+    <script src="<?= base_url() ?>/Template/1/js/CustomEase.min.js"></script>
+
+    <script src="<?= base_url() ?>/Template/1/sweetalert/sweetalert.min.js"></script>
+
+    <?php if (!empty(session()->getflashdata('success'))) { ?>
+        <script>
+            swal("Congratulation", "<?= session()->getFlashData('success'); ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+    <?php session()->remove('success');
+    } ?>
+
+    <?php if (!empty(session()->getflashdata('errors'))) { ?>
+        <script>
+            swal("Mohon Maaf", "<?= session()->getFlashData('errors'); ?>", "error");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+    <?php session()->remove('errors');
+    } ?>
+
+    <?php if (!empty(session()->getflashdata('info'))) { ?>
+        <script>
+            swal("Mohon Perhatian", "<?= session()->getFlashData('info'); ?>", "info");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+    <?php session()->remove('info');
+    } ?>
+
     <script>
         // use a script tag or an external JS file
         document.addEventListener("DOMContentLoaded", (event) => {
@@ -897,6 +972,7 @@
             // gsap code here!
         });
     </script>
+
     <script>
         const tl = gsap.timeline();
 
@@ -1059,6 +1135,7 @@
                 ease: "power2.out"
             });
     </script>
+
     <script>
         const tll = gsap.timeline({
             paused: true
@@ -1186,6 +1263,7 @@
             tll.restart();
         });
     </script>
+
     <script>
         const tlll = gsap.timeline({
             paused: true
@@ -1284,6 +1362,7 @@
             tlll.restart();
         });
     </script>
+
     <script>
         const nama = gsap.timeline();
 
@@ -1490,6 +1569,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>
