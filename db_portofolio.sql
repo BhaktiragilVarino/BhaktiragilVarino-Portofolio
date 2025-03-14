@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 11 Jun 2024 pada 06.58
+-- Waktu pembuatan: 14 Mar 2025 pada 17.02
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 8.1.6
 
@@ -42,7 +42,7 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id_about`, `foto_about`, `link_youtube_about`, `judul_about`, `quote_about`, `isi_about`, `ttd_about`) VALUES
-(1, '1716448781_2404d649b9a50abe3147.jpg', 'https://www.youtube.com/watch?v=ARA0AxrnHdM', 'Integrity & Innovation', 'Striving for excellence in every endeavor', 'I\'m a passionate tech enthusiast with a strong affinity for UI/UX design and coding. With a deep-rooted love for technology, I find joy in crafting intuitive user experiences and writing elegant code that brings ideas to life. My journey in the world of tech has been marked by a commitment to continuous learning and a drive to stay at the forefront of innovation', '66517b9046185.png');
+(1, '1716448781_2404d649b9a50abe3147.jpg', 'https://www.youtube.com/watch?v=gn8sMKdMLnI', 'Integrity & Innovation', 'Striving for excellence in every endeavor', 'I\'m a passionate tech enthusiast with a strong affinity for UI/UX design and coding. With a deep-rooted love for technology, I find joy in crafting intuitive user experiences and writing elegant code that brings ideas to life. My journey in the world of tech has been marked by a commitment to continuous learning and a drive to stay at the forefront of innovation', '66517b9046185.png');
 
 -- --------------------------------------------------------
 
@@ -69,7 +69,8 @@ INSERT INTO `achiev` (`id_achiev`, `nama_achiev`, `foto_achiev`) VALUES
 (29, 'Toefl', '1716967982_3ba21cfaa1923ec5592c.jpg'),
 (30, 'Sertifikat Wisudawan Terbaik', '1716968099_e3eebbe7c64a26da93f6.jpg'),
 (31, 'Wisudawan Terbaik', '1716968245_64d01443663d62116e8a.jpeg'),
-(32, 'Sertifikat Penetrasi', '1716968891_6e98c3c4e3b27970e1db.jpg');
+(32, 'Sertifikat Penetrasi', '1716968891_6e98c3c4e3b27970e1db.jpg'),
+(33, 'foto', '1741947653_6c452de1b8e50e924c24.jpg');
 
 -- --------------------------------------------------------
 
@@ -90,8 +91,8 @@ CREATE TABLE `education` (
 --
 
 INSERT INTO `education` (`id_education`, `nama_instansi_education`, `logo_instansi_education`, `prodi_education`, `keterangan_education`) VALUES
-(3, 'Universitas Prabumulih', 'logounpra.png', 'Komputerisasi Akuntansi', 'Saya adalah Lulusan Terbaik Ahli Madya Komputerisasi Akuntansi dari Universitas Prabumulih dengan pengalaman profesional di bidang administrasi dan manajemen data. Saya memiliki keahlian dan pengetahuan luas dalam pemrograman, praktik akuntansi, manajemen dan analisis data, manajemen dokumen dan arsip, serta penyusunan laporan keuangan. Dengan latar belakang ini, saya siap berkontribusi secara signifikan dalam mendukung dan mengoptimalkan proses bisnis perusahaan.'),
-(4, 'SMK Negeri 1 Benakat', 'logosmk.jpeg', 'Akuntansi', 'Saya adalah lulusan Akuntansi dari SMK Negeri 1 Benakat yang memiliki Pengalaman dalam bidang keuangan dan akuntansi. Dengan latar belakang pendidikan yang kuat, prestasi akademik yang membanggakan, serta pengalaman profesional yang relevan, saya siap memberikan kontribusi yang positif dan signifikan dalam tim. Kemampuan analitis yang baik, Perhatian terhadap detail, serta keterampilan komunikasi yang efektif menjadikan saya kandidat yang ideal untuk posisi akuntansi di perusahaan.');
+(3, 'Universitas Prabumulih', '1741338754_a90e07a5b881ab7f0180.png', 'Komputerisasi Akuntansi', 'Saya adalah Lulusan Terbaik Ahli Madya Komputerisasi Akuntansi dari Universitas Prabumulih dengan pengalaman profesional di bidang administrasi dan manajemen data. Saya memiliki keahlian dan pengetahuan luas dalam pemrograman, praktik akuntansi, manajemen dan analisis data, manajemen dokumen dan arsip, serta penyusunan laporan keuangan. Dengan latar belakang ini, saya siap berkontribusi secara signifikan dalam mendukung dan mengoptimalkan proses bisnis perusahaan.'),
+(4, 'SMK Negeri 1 Benakat', '1741340658_12e627b5bc28ad743af9.png', 'Akuntansi', 'Saya adalah lulusan Akuntansi dari SMK Negeri 1 Benakat yang memiliki Pengalaman dalam bidang keuangan dan akuntansi. Dengan latar belakang pendidikan yang kuat, prestasi akademik yang membanggakan, serta pengalaman profesional yang relevan, saya siap memberikan kontribusi yang positif dan signifikan dalam tim. Kemampuan analitis yang baik, Perhatian terhadap detail, serta keterampilan komunikasi yang efektif menjadikan saya kandidat yang ideal untuk posisi akuntansi di perusahaan.');
 
 -- --------------------------------------------------------
 
@@ -111,7 +112,7 @@ CREATE TABLE `home` (
 --
 
 INSERT INTO `home` (`id_home`, `nama_home`, `minat_home`, `cv_home`) VALUES
-(1, 'BHAKTI RAGIL VARINO', 'Web Developer & Akuntansi', '1716357754_d3f81bde3b368fd217c3.pdf,1716357754_544afaa1dad3272bd424.pdf');
+(1, 'BHAKTI RAGIL VARINO', 'Web Developer & Akuntansi', '1741962973_c4554d55fca586c06d8e.pdf,1741962973_54b1e54b1cf6a7eca883.pdf');
 
 -- --------------------------------------------------------
 
@@ -131,7 +132,8 @@ CREATE TABLE `pesan` (
 --
 
 INSERT INTO `pesan` (`id_pesan`, `email`, `pesan`, `created_at`) VALUES
-(1, 'Dilandarindu1092@gmail.com', 'Aplikasinya Sudah Baik Tinggal Diperbaiki Sedikit Dan Disesuaikan User Interfacenya', '2024-05-23 15:23:49');
+(1, 'Dilandarindu1092@gmail.com', 'Aplikasinya Sudah Baik Tinggal Diperbaiki Sedikit Dan Disesuaikan User Interfacenya', '2024-05-23 15:23:49'),
+(6, 'desa@gmail.com', 'XSSSSSSSSSSS', '2025-03-14 16:07:16');
 
 -- --------------------------------------------------------
 
@@ -153,7 +155,7 @@ CREATE TABLE `project` (
 --
 
 INSERT INTO `project` (`id_project`, `foto_project`, `kategori_project`, `nama_project`, `keterangan_project`, `created_at`) VALUES
-(1, '1716352854_fdd04d7a24984ec41f40.jpg,1716352854_0bf83c8cb9ed899e0e93.jpg', 'Akuntansi, Pajak, Sistem Informasi', 'Aplikasi Pajak', 'Aplikasi Pembuatan Laporan Keuangan ini dirancang khusus untuk membantu wajib pajak dalam menyusun dan melaporkan Surat Pemberitahuan Tahunan (SPT) Badan kepada Kantor Pelayanan Pajak Pratama Prabumulih. Dengan antarmuka yang user-friendly dan fitur yang komprehensif, aplikasi ini memudahkan pengguna untuk menginput data keuangan secara akurat dan efisien. Pengguna dapat dengan mudah mengakses berbagai template laporan keuangan yang sesuai dengan standar pelaporan pajak yang berlaku, serta memperoleh panduan langkah demi langkah untuk memastikan setiap bagian dari SPT Tahunan diisi dengan benar. Hal ini diharapkan dapat mengurangi kesalahan dalam pelaporan dan meningkatkan kepatuhan pajak.', '2024-06-02 10:58:28');
+(1, '1716352854_fdd04d7a24984ec41f40.jpg,1716352854_0bf83c8cb9ed899e0e93.jpg', 'Akuntansi, Pajak, Sistem Informasi', 'Aplikasi Pajak', 'Aplikasi Pembuatan Laporan Keuangan ini dirancang khusus untuk membantu wajib pajak dalam menyusun dan melaporkan Surat Pemberitahuan Tahunan (SPT) Badan kepada Kantor Pelayanan Pajak Pratama Prabumulih. Dengan antarmuka yang user-friendly dan fitur yang komprehensif, aplikasi ini memudahkan pengguna untuk menginput data keuangan secara akurat dan efisien. Pengguna dapat dengan mudah mengakses berbagai template laporan keuangan yang sesuai dengan standar pelaporan pajak yang berlaku, serta memperoleh panduan langkah demi langkah untuk memastikan setiap bagian dari SPT Tahunan diisi dengan benar. Hal ini diharapkan dapat mengurangi kesalahan dalam pelaporan dan meningkatkan kepatuhan pajak.', '2025-03-14 20:57:41');
 
 -- --------------------------------------------------------
 
@@ -180,7 +182,7 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `nama_user`, `username`, `password`, `level`, `notelepon`, `email`, `alamat`, `foto`, `barcode`, `created_at`) VALUES
-(1, 'Bhakti Ragil Varino', '01065226712cc4aab5edd90daa66872a314d51b94e0c830fe152e58b35621d30', '01065226712cc4aab5edd90daa66872a314d51b94e0c830fe152e58b35621d30', 1, '085664904661', 'admin@admin.com', 'Alipatan No. 003 Kecamatan Prabumulih Utara Kota Prabumulih Provinsi Sumatera Selatan', '1716382272_9c3b54e9704bf9e68860.jpeg', '6644204124694', '2024-05-22 19:56:11');
+(1, 'Bhakti Ragil Varino', '01065226712cc4aab5edd90daa66872a314d51b94e0c830fe152e58b35621d30', 'd32d753457888e17aad8aae2464c260fa9a4f0498d52feb564571c3bcef3d1ad', 1, '085664904661', 'bhaktiragil972@gmail.com', 'Alipatan No. 003 Kecamatan Prabumulih Utara Kota Prabumulih Provinsi Sumatera Selatan', '1741960438_44bd7b3a07e354f871e9.jpg', '6644204124694', '2025-03-14 20:53:58');
 
 -- --------------------------------------------------------
 
@@ -231,7 +233,8 @@ CREATE TABLE `workexperience` (
 --
 
 INSERT INTO `workexperience` (`id_workexperience`, `nama_instansi_workexperience`, `posisi_workexperience`, `keterangan_workexperience`, `logo_workexperience`, `tahun_mulai_workexperience`, `tahun_selesai_workexperience`) VALUES
-(2, 'Kantor Pelayanan Pajak Pratama Prabumulih', 'Administrasi', 'Melaksanakan tugas administrasi dan manajemen data, dengan menggunakan aplikasi arsip untuk\r\nmeningkatkan efisiensi dalam manajemen data instansi dan mengurangi waktu pencarian data yang\r\ndiperlukan dalam kegiatan dan kebutuhan kerja instansi. Melaksanakan tugas manajemen data dan penyusunan berkas, dengan mengelola data dan berkas instansi sesuai dengan kebutuhan dan agenda kerja dan mendukung kegiatan operasional.', '1716343773_67417cfcdaf13521fa4d.png', '2023', '2023');
+(2, 'Kantor Pelayanan Pajak Pratama Prabumulih', 'Administrasi', 'Melaksanakan tugas administrasi dan manajemen data, dengan menggunakan aplikasi arsip untuk\r\nmeningkatkan efisiensi dalam manajemen data instansi dan mengurangi waktu pencarian data yang\r\ndiperlukan dalam kegiatan dan kebutuhan kerja instansi. Melaksanakan tugas manajemen data dan penyusunan berkas, dengan mengelola data dan berkas instansi sesuai dengan kebutuhan dan agenda kerja dan mendukung kegiatan operasional.', '1716343773_67417cfcdaf13521fa4d.png', '2023', '2023'),
+(3, 'PT Bank Rakyat Indonesia Persero', 'Administrasi Kredit', 'Melaksanakan tugas administrasi dan manajemen data, dengan menggunakan aplikasi arsip untuk\r\nmeningkatkan efisiensi dalam manajemen data instansi dan mengurangi waktu pencarian data yang\r\ndiperlukan dalam kegiatan dan kebutuhan kerja instansi. Melaksanakan tugas manajemen data dan penyusunan berkas, dengan mengelola data dan berkas instansi sesuai dengan kebutuhan dan agenda kerja dan mendukung kegiatan operasional.', '1741340750_20b7df10e3600d9af16a.png', '2018', '2019');
 
 --
 -- Indexes for dumped tables
@@ -305,7 +308,7 @@ ALTER TABLE `about`
 -- AUTO_INCREMENT untuk tabel `achiev`
 --
 ALTER TABLE `achiev`
-  MODIFY `id_achiev` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id_achiev` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT untuk tabel `education`
@@ -323,19 +326,19 @@ ALTER TABLE `home`
 -- AUTO_INCREMENT untuk tabel `pesan`
 --
 ALTER TABLE `pesan`
-  MODIFY `id_pesan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_pesan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT untuk tabel `project`
 --
 ALTER TABLE `project`
-  MODIFY `id_project` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_project` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
 
 --
 -- AUTO_INCREMENT untuk tabel `technologysuite`
@@ -347,7 +350,7 @@ ALTER TABLE `technologysuite`
 -- AUTO_INCREMENT untuk tabel `workexperience`
 --
 ALTER TABLE `workexperience`
-  MODIFY `id_workexperience` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_workexperience` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
