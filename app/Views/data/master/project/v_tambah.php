@@ -37,7 +37,7 @@
                                                 <input type="text" id="kategori_project" name="kategori_project" class="form-control" required>
                                             </div>
                                             <div class="form-group col-md-12">
-                                                <label for="foto_project">Foto Logo</label>
+                                                <label for="foto_project">Foto Project</label>
                                                 <input type="file" accept="images/*" id="foto_project" name="foto_project[]" class="form-control" required multiple>
                                             </div>
                                         </div>

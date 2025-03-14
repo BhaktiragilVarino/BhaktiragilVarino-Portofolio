@@ -21,6 +21,6 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="<?= base_url() ?>/Template/7/template/assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="<?= base_url() ?>/Template/7/template/assets/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= base_url() ?>/Template/1/img/image.png" />
     <link rel="stylesheet" href="<?= base_url() ?>/Template/7/template/assets/css/feather.css">
 </head>

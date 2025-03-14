@@ -257,7 +257,7 @@
 							<div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
 								<div class="d-flex dropdown-item preview-item">
 									<h6 class="p-3 mb-0 text-info">Notification</h6>
-									<p class="p-3 mb-0 text-center ml-5"><a class="text-warning" href="?markAsRead1=true" id="markAsRead1">Tandai Telah Baca</a></p>
+									<p class="p-3 mb-0 text-center" style="margin-left: 13	0px;"><a class="text-warning" href="?markAsRead1=true" id="markAsRead1">Tandai Telah Baca</a></p>
 								</div>
 
 								<?php

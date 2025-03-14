@@ -24,7 +24,7 @@
                                 <tr>
                                     <th> Foto </th>
                                     <th> Nama Keahlian </th>
-                                    <th> Progress </th>
+                                    <th> Skills </th>
                                     <th> Keterangan </th>
                                     <th> Action </th>
                                 </tr>

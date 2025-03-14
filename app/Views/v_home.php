@@ -143,7 +143,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex flex-row justify-content-between">
-                        <h4 class="card-title mb-1">Open Projects</h4>
+                        <h4 class="card-title mb-1">Your Projects</h4>
                         <p class="text-muted mb-1">Your data status</p>
                     </div>
                     <div class="row">
@@ -156,7 +156,11 @@
                                 $query = $db->table('project')->get();
                                 $daftar = $query->getResult();
 
-                                foreach ($daftar as $row) { ?>
+                                foreach ($daftar as $row) {
+                                    $words = explode(' ', $row->keterangan_project);
+                                    $short_desc = implode(' ', array_slice($words, 0, 20));
+                                    $is_long = count($words) > 20;
+                                ?>
                                     <div class="preview-item border-bottom">
                                         <div class="preview-thumbnail">
                                             <div class="preview-icon bg-info">
@@ -164,9 +168,9 @@
                                             </div>
                                         </div>
                                         <div class="preview-item-content d-sm-flex flex-grow">
-                                            <div class="flex-grow">
+                                            <div class="flex-grow" style="width: 200px;">
                                                 <h6 class="preview-subject"><?= $row->nama_project ?></h6>
-                                                <p class="text-muted mb-0"><?= $row->keterangan_project ?></p>
+                                                <p class="text-muted mb-0"><?= $short_desc ?> <?= $is_long ? ' ...... <a href="project"> selengkapnya</a>' : '' ?></p>
                                             </div>
                                             <div class="mr-auto text-sm-right pt-2 pt-sm-0">
                                                 <p class="text-muted"><?= $row->kategori_project ?></p>
@@ -186,7 +190,7 @@
         <div class="col-12 grid-margin">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Order Status</h4>
+                    <h4 class="card-title">Pesan Masuk</h4>
                     <div class="table-responsive">
                         <table class="table">
                             <thead>

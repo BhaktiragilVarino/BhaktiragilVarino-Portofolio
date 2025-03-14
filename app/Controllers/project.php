@@ -156,4 +156,12 @@ class project extends BaseController
         session()->setFlashdata('success', 'Data Berhasil Diupdate');
         return redirect()->to(base_url('project'));
     }
+
+    public function delete($id_project)
+    {
+        $this->model_project->delete_project($id_project);
+
+        session()->setFlashdata('success', 'Data Berhasil Dihapus !!');
+        return redirect()->to(base_url('project'));
+    }
 }
